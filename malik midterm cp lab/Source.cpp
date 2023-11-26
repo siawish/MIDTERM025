@@ -19,7 +19,7 @@ int main()
 		cout << "Enter salesTax rate of product: (in percentage)";
 		cin >> s_taxRate;
 
-		t_s_taxRate = ((price * (s_taxRate / 100)) + price);
+		t_s_taxRate = (price * (s_taxRate / 100));
 
 		if (quantity >= 10)
 		{
